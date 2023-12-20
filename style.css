@@ -1,0 +1,32 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia;
+    font-size: 200px;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #2005b8  0px 0px 20px, #3403e2  0px 0px 30px, #2e0cf0  0px 0px 40px, #6f07f7  0px 0px 50px, #1f07f7 0px 0px 75px;
+        background: linear-gradient(115deg,#f86515,#ff9100,#d3fdc9,#5afc4b,#02b419);
+        background-size: 300% 300%;
+        animation: gradient-animation 2s ease infinite;
+}
+    @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
